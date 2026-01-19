@@ -83,17 +83,7 @@ To quantify robustness under motion, the study also stratifies windows by **PPG 
 
 ## Repository structure (suggested)
 
-You can adapt this to your actual codebase:
-
 ```text
-.
-├─ data/                      # (optional) dataset pointers / scripts (no raw data)
-├─ configs/                   # run configs
 ├─ src/                       # core pipeline (preprocess, windows, metrics)
 ├─ algorithms/                # wrappers/adapters for each method
 ├─ notebooks/                 # exploration + figures
-├─ results/                   # generated outputs (excluded from version control if large)
-└─ scripts/
-   ├─ prepare_dataset.*
-   ├─ run_benchmark.*
-   └─ make_figures.*
